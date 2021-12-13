@@ -6,8 +6,4 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: paranoid-test
-        run: |
-          docker-compose ps --all
-          if [[ `docker-compose ps --all | tail -n +3 \
-            | wc -l` != `docker-compose ps |  grep " Up " \
-            | wc -l` ]]; then exit 1; fi
+        run: docker compose
