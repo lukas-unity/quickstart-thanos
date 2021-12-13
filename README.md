@@ -56,7 +56,7 @@ Secret Key - Need8Chars (Keys are stored in the `docker-compose.yaml` file)
 
 * Explore metrics via Grafana <http://localhost:3000/explore> or the Thanos Query Frontend <http://localhost:10901>
 
-## Notes
+## Notesf
 
 This project is intended to be a quick-start to get up and running with Thanos. Security has not been implemented in this project.
 It is inspired by:
